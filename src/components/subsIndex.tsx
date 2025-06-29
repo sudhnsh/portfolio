@@ -146,7 +146,7 @@ const mockPriceData = [
       { country: "Mexico", price: 3.99, currency: "USD", flag: "🇲🇽", savings: 42.9 },
       { country: "Philippines", price: 4.49, currency: "USD", flag: "🇵🇭", savings: 35.8 },
       { country: "United Kingdom", price: 7.99, currency: "USD", flag: "🇬🇧", savings: -14.3 },
-      { country: "United States", price: 6.99, currency: "USD", flag: "🇺🇸", savings: 0 },
+      { country: "United States", price: 6.99, currency: "USD", flag: "🇺���8", savings: 0 },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: false,
@@ -171,7 +171,7 @@ const mockPriceData = [
       { country: "Mexico", price: 6.99, currency: "USD", flag: "🇲🇽", savings: 36.4 },
       { country: "Philippines", price: 7.99, currency: "USD", flag: "🇵🇭", savings: 27.3 },
       { country: "United Kingdom", price: 12.99, currency: "USD", flag: "🇬🇧", savings: -18.2 },
-      { country: "United States", price: 10.99, currency: "USD", flag: "🇺🇸", savings: 0 },
+      { country: "United States", price: 10.99, currency: "USD", flag: "🇺���8", savings: 0 },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: true,
@@ -196,7 +196,7 @@ const mockPriceData = [
       { country: "Mexico", price: 11.99, currency: "USD", flag: "🇲🇽", savings: 29.4 },
       { country: "Philippines", price: 12.99, currency: "USD", flag: "🇵🇭", savings: 23.5 },
       { country: "United Kingdom", price: 18.99, currency: "USD", flag: "🇬🇧", savings: -11.8 },
-      { country: "United States", price: 16.99, currency: "USD", flag: "🇺🇸", savings: 0 },
+      { country: "United States", price: 16.99, currency: "USD", flag: "🇺���8", savings: 0 },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: false,
@@ -221,7 +221,7 @@ const mockPriceData = [
       { country: "Mexico", price: 5.99, currency: "USD", flag: "🇲🇽", savings: 33.4 },
       { country: "Philippines", price: 6.49, currency: "USD", flag: "🇵🇭", savings: 27.8 },
       { country: "United Kingdom", price: 9.99, currency: "USD", flag: "🇬🇧", savings: -11.1 },
-      { country: "United States", price: 8.99, currency: "USD", flag: "🇺🇸", savings: 0 },
+      { country: "United States", price: 8.99, currency: "USD", flag: "🇺���8", savings: 0 },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: true,
@@ -287,16 +287,15 @@ export default function PriceIndex() {
   }, [priceData, searchTerm, selectedCountry, selectedTags, sortBy])
 
   // Function to load data from API
-  const loadDataFromAPI = async (apiUrl: string) => {
-    try {
-      const response = await fetch(apiUrl)
-      const data = await response.json()
-      setPriceData(data)
-    } catch (error) {
-      console.error("Error loading data from API:", error)
-    }
-  }
-
+  // const _loadDataFromAPI = async (apiUrl: string) => {
+  //   try {
+  //     const response = await fetch(apiUrl)
+  //     const data = await response.json()
+  //     setPriceData(data)
+  //   } catch (error) {
+  //     console.error("Error loading data from API:", error)
+  //   }
+  // }
   const getBestPrice = (prices: any[]) => {
     return prices.reduce((best, current) => (current.price < best.price ? current : best))
   }
@@ -310,7 +309,7 @@ export default function PriceIndex() {
       Philippines: "🇵🇭",
       Mexico: "🇲🇽",
       "United Kingdom": "🇬🇧",
-      "United States": "🇺🇸",
+      "United States": "🇺���8",
       Ukraine: "🇺🇦",
     }
     return flagMap[country] || "🌍"

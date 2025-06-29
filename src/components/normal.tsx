@@ -9,7 +9,6 @@ import {
   Github,
   Mail,
   Linkedin,
-  Twitter,
   Code,
   Palette,
   Database,
@@ -18,7 +17,6 @@ import {
   Terminal,
   Monitor,
   MapPin,
-  Phone,
   Download,
   Award,
   Moon,
@@ -252,13 +250,13 @@ export default function NormalPortfolio() {
             <div className="max-w-4xl mb-8">
               <div className="font-mono text-sm text-muted-foreground mb-2">&gt; cat about.txt</div>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Writes mostly clean and efficient code — at least it works on{" "}
-                  <span className="text-green-400 font-mono">my machine</span>. Currently working at{" "}
-                  <span className="text-blue-400 font-mono">MAQ Software</span>, and previously interned at{" "}
-                  <span className="text-pink-400 font-mono">Samsung</span>. Enjoys working with{" "}
-                  <span className="text-green-400 font-mono">React</span>,{" "}
-                  <span className="text-green-400 font-mono">Node.js</span>, and occasionally dabbles in{" "}
-                  <span className="text-green-400 font-mono">data</span> and{" "}
+                  Writes mostly clean and efficient code — at least it works on{' '}
+                  <span className="text-green-400 font-mono">my machine</span>. Currently working at{' '}
+                  <span className="text-blue-400 font-mono">MAQ Software</span>, and previously interned at{' '}
+                  <span className="text-pink-400 font-mono">Samsung</span>. Enjoys working with{' '}
+                  <span className="text-green-400 font-mono">React</span>,{' '}
+                  <span className="text-green-400 font-mono">Node.js</span>, and occasionally dabbles in{' '}
+                  <span className="text-green-400 font-mono">data</span> and{' '}
                   <span className="text-green-400 font-mono">cloud stuff</span>.
                 </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
