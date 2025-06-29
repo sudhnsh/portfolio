@@ -192,28 +192,61 @@ export default function NormalPortfolio() {
               &lt;SUDHNSH/&gt;
             </div>
             <div className="hidden md:flex items-center gap-8">
-              <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors font-mono">
+              <a
+                href="#about"
+                className="text-muted-foreground hover:text-foreground transition-colors font-mono"
+              >
                 ./about
               </a>
-              <a href="#projects" className="text-muted-foreground hover:text-foreground transition-colors font-mono">
+              <a
+                href="#projects"
+                className="text-muted-foreground hover:text-foreground transition-colors font-mono"
+              >
                 ./projects
               </a>
-              <a href="#experience" className="text-muted-foreground hover:text-foreground transition-colors font-mono">
+              <a
+                href="#experience"
+                className="text-muted-foreground hover:text-foreground transition-colors font-mono"
+              >
                 ./experience
               </a>
-              <a href="#skills" className="text-muted-foreground hover:text-foreground transition-colors font-mono">
+              <a
+                href="#skills"
+                className="text-muted-foreground hover:text-foreground transition-colors font-mono"
+              >
                 ./skills
               </a>
-              <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors font-mono">
+              <a
+                href="#contact"
+                className="text-muted-foreground hover:text-foreground transition-colors font-mono"
+              >
                 ./contact
               </a>
             </div>
             <div className="flex items-center gap-4">
-              <Button variant="outline" size="sm" onClick={toggleDarkMode} className="font-mono bg-transparent">
-                {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={toggleDarkMode}
+                className="font-mono bg-transparent"
+              >
+                {isDarkMode ? (
+                  <Sun className="w-4 h-4" />
+                ) : (
+                  <Moon className="w-4 h-4" />
+                )}
               </Button>
-              <Button variant="outline" size="sm" asChild className="font-mono bg-transparent">
-                <a href="https://github.com/sudhnsh" target="_blank" rel="noreferrer">
+              <Button
+                variant="outline"
+                size="sm"
+                asChild
+                className="font-mono bg-transparent"
+              >
+                <a
+                  href="https://github.com/sudhnsh"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Github className="w-4 h-4 mr-2" />
                   GitHub
                 </a>
@@ -235,7 +268,9 @@ export default function NormalPortfolio() {
           <div className="mb-8">
             <div className="flex items-center gap-4 mb-6">
               <div>
-                <div className="text-sm font-mono text-muted-foreground mb-2">&gt; whoami</div>
+                <div className="text-sm font-mono text-muted-foreground mb-2">
+                  &gt; whoami
+                </div>
                 <h1 className="text-4xl md:text-6xl font-bold mb-2">
                   <span className="pixel-text bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
                     SUDHANSHU_POONIA
@@ -248,17 +283,23 @@ export default function NormalPortfolio() {
             </div>
 
             <div className="max-w-4xl mb-8">
-              <div className="font-mono text-sm text-muted-foreground mb-2">&gt; cat about.txt</div>
+              <div className="font-mono text-sm text-muted-foreground mb-2">
+                &gt; cat about.txt
+              </div>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Writes mostly clean and efficient code — at least it works on{' '}
-                  <span className="text-green-400 font-mono">my machine</span>. Currently working at{' '}
-                  <span className="text-blue-400 font-mono">MAQ Software</span>, and previously interned at{' '}
-                  <span className="text-pink-400 font-mono">Samsung</span>. Enjoys working with{' '}
-                  <span className="text-green-400 font-mono">React</span>,{' '}
-                  <span className="text-green-400 font-mono">Node.js</span>, and occasionally dabbles in{' '}
-                  <span className="text-green-400 font-mono">data</span> and{' '}
-                  <span className="text-green-400 font-mono">cloud stuff</span>.
-                </p>
+                Writes mostly clean and efficient code — at least it works on{" "}
+                <span className="text-green-400 font-mono">my machine</span>.
+                Currently working at{" "}
+                <span className="text-blue-400 font-mono">MAQ Software</span>,
+                and previously interned at{" "}
+                <span className="text-pink-400 font-mono">Samsung</span>. Enjoys
+                working with{" "}
+                <span className="text-green-400 font-mono">React</span>,{" "}
+                <span className="text-green-400 font-mono">Node.js</span>, and
+                occasionally dabbles in{" "}
+                <span className="text-green-400 font-mono">data</span> and{" "}
+                <span className="text-green-400 font-mono">cloud stuff</span>.
+              </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
                 <div className="bg-card border border-border p-4 font-mono text-center">
                   <div className="text-2xl font-bold text-green-400">1+</div>
@@ -274,7 +315,12 @@ export default function NormalPortfolio() {
                   VIEW_PROJECTS
                 </a>
               </Button>
-              <Button size="lg" variant="outline" asChild className="font-mono bg-transparent">
+              <Button
+                size="lg"
+                variant="outline"
+                asChild
+                className="font-mono bg-transparent"
+              >
                 <a href="/resume.pdf" target="_blank" rel="noreferrer">
                   <Download className="w-5 h-5 mr-2" />
                   DOWNLOAD_CV
@@ -289,14 +335,19 @@ export default function NormalPortfolio() {
       <section className="container mx-auto px-6 py-16">
         <div className="max-w-6xl">
           <div className="mb-12">
-            <div className="font-mono text-sm text-muted-foreground mb-2">&gt; ls featured_projects/</div>
+            <div className="font-mono text-sm text-muted-foreground mb-2">
+              &gt; ls featured_projects/
+            </div>
             <Badge className="mb-4 bg-gradient-to-r from-green-500 to-blue-500 text-white font-mono text-xs">
               FEATURED_PROJECT.exe
             </Badge>
-            <h2 className="text-3xl font-bold mb-4">Interactive Terminal Portfolio</h2>
+            <h2 className="text-3xl font-bold mb-4">
+              Interactive Terminal Portfolio
+            </h2>
             <p className="text-muted-foreground max-w-2xl">
-              A unique, developer-friendly portfolio experience built as an interactive terminal with multiple themes,
-              command system, and real-time typing effects.
+              A unique, developer-friendly portfolio experience built as an
+              interactive terminal with multiple themes, command system, and
+              real-time typing effects.
             </p>
           </div>
 
@@ -309,24 +360,43 @@ export default function NormalPortfolio() {
                       <div className="w-3 h-3 rounded-full bg-red-500"></div>
                       <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                       <div className="w-3 h-3 rounded-full bg-green-500"></div>
-                      <span className="ml-2 text-green-300">sudhnsh@portfolio:~$</span>
+                      <span className="ml-2 text-green-300">
+                        sudhnsh@portfolio:~$
+                      </span>
                     </div>
                     <div>sudhnsh@portfolio:~$ help</div>
                     <div className="text-green-300">Available commands:</div>
-                    <div className="text-green-400"> about - About Sudhanshu</div>
-                    <div className="text-green-400"> proj - List all projects</div>
-                    <div className="text-green-400"> theme - Switch terminal themes</div>
-                    <div className="animate-pulse mt-2">sudhnsh@portfolio:~$ █</div>
+                    <div className="text-green-400">
+                      {" "}
+                      about - About Sudhanshu
+                    </div>
+                    <div className="text-green-400">
+                      {" "}
+                      proj - List all projects
+                    </div>
+                    <div className="text-green-400">
+                      {" "}
+                      theme - Switch terminal themes
+                    </div>
+                    <div className="animate-pulse mt-2">
+                      sudhnsh@portfolio:~$ █
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="md:w-1/2 p-8">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {["React", "TypeScript", "Next.js", "Tailwind CSS"].map((tech) => (
-                    <Badge key={tech} variant="secondary" className="font-mono">
-                      {tech}
-                    </Badge>
-                  ))}
+                  {["React", "TypeScript", "Next.js", "Tailwind CSS"].map(
+                    (tech) => (
+                      <Badge
+                        key={tech}
+                        variant="secondary"
+                        className="font-mono"
+                      >
+                        {tech}
+                      </Badge>
+                    )
+                  )}
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Key Features</h3>
                 <ul className="space-y-3 text-muted-foreground mb-6 font-mono text-sm">
@@ -335,8 +405,8 @@ export default function NormalPortfolio() {
                     Interactive command system with history
                   </li>
                   <li className="flex items-center gap-2">
-                    <Palette className="w-4 h-4 text-blue-500" />6 different terminal themes (matrix, cyber, amber,
-                    etc.)
+                    <Palette className="w-4 h-4 text-blue-500" />6 different
+                    terminal themes (matrix, cyber, amber, etc.)
                   </li>
                   <li className="flex items-center gap-2">
                     <Zap className="w-4 h-4 text-yellow-500" />
@@ -366,10 +436,15 @@ export default function NormalPortfolio() {
         <div className="container mx-auto px-6">
           <div className="max-w-6xl">
             <div className="mb-12">
-              <div className="font-mono text-sm text-muted-foreground mb-2">&gt; ls projects/ --all</div>
-              <h2 className="text-3xl font-bold mb-4 font-mono">All Projects</h2>
+              <div className="font-mono text-sm text-muted-foreground mb-2">
+                &gt; ls projects/ --all
+              </div>
+              <h2 className="text-3xl font-bold mb-4 font-mono">
+                All Projects
+              </h2>
               <p className="text-muted-foreground max-w-2xl">
-                A collection of web applications, tools, and extensions I've built using modern technologies.
+                A collection of web applications, tools, and extensions
+                I&apos;ve built using modern technologies.
               </p>
             </div>
 
@@ -378,7 +453,9 @@ export default function NormalPortfolio() {
               {categories.map((category) => (
                 <Button
                   key={category}
-                  variant={selectedCategory === category ? "default" : "outline"}
+                  variant={
+                    selectedCategory === category ? "default" : "outline"
+                  }
                   onClick={() => setSelectedCategory(category)}
                   size="sm"
                   className="font-mono"
@@ -401,22 +478,34 @@ export default function NormalPortfolio() {
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
                       <div className="absolute bottom-4 left-4 right-4">
-                        <Badge className="mb-2 font-mono">{project.category.toUpperCase()}</Badge>
-                        <h3 className="text-white font-semibold text-lg font-mono">{project.title}</h3>
+                        <Badge className="mb-2 font-mono">
+                          {project.category.toUpperCase()}
+                        </Badge>
+                        <h3 className="text-white font-semibold text-lg font-mono">
+                          {project.title}
+                        </h3>
                       </div>
                     </div>
                   </div>
 
                   <CardContent className="p-6">
-                    <p className="text-muted-foreground mb-4 line-clamp-3">{project.description}</p>
+                    <p className="text-muted-foreground mb-4 line-clamp-3">
+                      {project.description}
+                    </p>
 
                     {project.users && (
-                      <p className="text-sm text-green-400 font-medium mb-3 font-mono">📊 {project.users}</p>
+                      <p className="text-sm text-green-400 font-medium mb-3 font-mono">
+                        📊 {project.users}
+                      </p>
                     )}
 
                     <div className="flex flex-wrap gap-2 mb-4">
                       {project.tech.slice(0, 3).map((tech) => (
-                        <Badge key={tech} variant="secondary" className="text-xs font-mono">
+                        <Badge
+                          key={tech}
+                          variant="secondary"
+                          className="text-xs font-mono"
+                        >
                           {tech}
                         </Badge>
                       ))}
@@ -447,26 +536,42 @@ export default function NormalPortfolio() {
       <section id="experience" className="container mx-auto px-6 py-16">
         <div className="max-w-4xl">
           <div className="mb-12">
-            <div className="font-mono text-sm text-muted-foreground mb-2">&gt; cat work_experience.log</div>
+            <div className="font-mono text-sm text-muted-foreground mb-2">
+              &gt; cat work_experience.log
+            </div>
             <h2 className="text-3xl font-bold font-mono">Work Experience</h2>
           </div>
           <div className="space-y-8">
             {experience.map((exp, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow border-border/50 hover:border-primary/50">
+              <Card
+                key={index}
+                className="hover:shadow-lg transition-shadow border-border/50 hover:border-primary/50"
+              >
                 <CardContent className="p-6">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <div>
-                      <h3 className="text-xl font-semibold font-mono">{exp.position}</h3>
-                      <p className="text-lg text-primary font-medium font-mono">{exp.company}</p>
+                      <h3 className="text-xl font-semibold font-mono">
+                        {exp.position}
+                      </h3>
+                      <p className="text-lg text-primary font-medium font-mono">
+                        {exp.company}
+                      </p>
                     </div>
                     <div className="text-right">
-                      <p className="text-muted-foreground font-medium font-mono">{exp.duration}</p>
-                      <p className="text-muted-foreground text-sm font-mono">{exp.location}</p>
+                      <p className="text-muted-foreground font-medium font-mono">
+                        {exp.duration}
+                      </p>
+                      <p className="text-muted-foreground text-sm font-mono">
+                        {exp.location}
+                      </p>
                     </div>
                   </div>
                   <ul className="space-y-2 mb-4">
                     {exp.description.map((item, i) => (
-                      <li key={i} className="text-muted-foreground flex items-start gap-2">
+                      <li
+                        key={i}
+                        className="text-muted-foreground flex items-start gap-2"
+                      >
                         <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                         {item}
                       </li>
@@ -474,7 +579,11 @@ export default function NormalPortfolio() {
                   </ul>
                   <div className="flex flex-wrap gap-2">
                     {exp.tech.map((tech) => (
-                      <Badge key={tech} variant="outline" className="text-xs font-mono">
+                      <Badge
+                        key={tech}
+                        variant="outline"
+                        className="text-xs font-mono"
+                      >
                         {tech}
                       </Badge>
                     ))}
@@ -491,9 +600,15 @@ export default function NormalPortfolio() {
         <div className="container mx-auto px-6">
           <div className="max-w-6xl">
             <div className="mb-12">
-              <div className="font-mono text-sm text-muted-foreground mb-2">&gt; ls skills/ --tree</div>
-              <h2 className="text-3xl font-bold mb-4 font-mono">Skills & Technologies</h2>
-              <p className="text-muted-foreground max-w-2xl">Technologies and tools I use to bring ideas to life.</p>
+              <div className="font-mono text-sm text-muted-foreground mb-2">
+                &gt; ls skills/ --tree
+              </div>
+              <h2 className="text-3xl font-bold mb-4 font-mono">
+                Skills & Technologies
+              </h2>
+              <p className="text-muted-foreground max-w-2xl">
+                Technologies and tools I use to bring ideas to life.
+              </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -506,10 +621,16 @@ export default function NormalPortfolio() {
                     <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center pixel-border retro-glow">
                       <skill.icon className="w-8 h-8 text-primary-foreground" />
                     </div>
-                    <h3 className="text-xl font-semibold mb-4 font-mono">{skill.name}</h3>
+                    <h3 className="text-xl font-semibold mb-4 font-mono">
+                      {skill.name}
+                    </h3>
                     <div className="space-y-2">
                       {skill.items.map((item) => (
-                        <Badge key={item} variant="outline" className="mr-2 mb-2 font-mono text-xs">
+                        <Badge
+                          key={item}
+                          variant="outline"
+                          className="mr-2 mb-2 font-mono text-xs"
+                        >
                           {item}
                         </Badge>
                       ))}
@@ -526,21 +647,34 @@ export default function NormalPortfolio() {
       <section className="container mx-auto px-6 py-16">
         <div className="max-w-4xl">
           <div className="mb-12">
-            <div className="font-mono text-sm text-muted-foreground mb-2">&gt; cat achievements.json</div>
-            <h2 className="text-3xl font-bold font-mono">Achievements & Certifications</h2>
+            <div className="font-mono text-sm text-muted-foreground mb-2">
+              &gt; cat achievements.json
+            </div>
+            <h2 className="text-3xl font-bold font-mono">
+              Achievements & Certifications
+            </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {achievements.map((achievement, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow border-border/50 hover:border-primary/50">
+              <Card
+                key={index}
+                className="hover:shadow-lg transition-shadow border-border/50 hover:border-primary/50"
+              >
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center flex-shrink-0 pixel-border retro-glow">
                       <achievement.icon className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1 font-mono">{achievement.title}</h3>
-                      <p className="text-primary text-sm font-medium font-mono">{achievement.issuer}</p>
-                      <p className="text-muted-foreground text-sm font-mono">{achievement.date}</p>
+                      <h3 className="font-semibold mb-1 font-mono">
+                        {achievement.title}
+                      </h3>
+                      <p className="text-primary text-sm font-medium font-mono">
+                        {achievement.issuer}
+                      </p>
+                      <p className="text-muted-foreground text-sm font-mono">
+                        {achievement.date}
+                      </p>
                     </div>
                   </div>
                 </CardContent>
@@ -555,11 +689,17 @@ export default function NormalPortfolio() {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl">
             <div className="mb-12">
-              <div className="font-mono text-sm text-muted-foreground mb-2">&gt; cat contact.info</div>
-              <h2 className="text-3xl font-bold mb-4 font-mono">Let's Work Together</h2>
+              <div className="font-mono text-sm text-muted-foreground mb-2">
+                &gt; cat contact.info
+              </div>
+              <h2 className="text-3xl font-bold mb-4 font-mono">
+                Let&apos;s Work Together
+              </h2>
+
               <p className="text-muted-foreground mb-8 max-w-2xl">
-                I'm always interested in new opportunities and exciting projects. Let's discuss how we can bring your
-                ideas to life.
+                I&apos;m always interested in new opportunities and exciting
+                projects. Let&apos;s discuss how we can bring your ideas to
+                life.
               </p>
             </div>
 
@@ -568,8 +708,12 @@ export default function NormalPortfolio() {
                 <CardContent className="p-6 text-center">
                   <Mail className="w-8 h-8 text-primary mx-auto mb-3" />
                   <h3 className="font-semibold mb-2 font-mono">EMAIL</h3>
-                  <p className="text-muted-foreground text-sm font-mono">sudhnsh16@hotmail.com</p>
-                  <p className="text-muted-foreground text-sm font-mono">sudhnsh16@gmail.com</p>
+                  <p className="text-muted-foreground text-sm font-mono">
+                    sudhnsh16@hotmail.com
+                  </p>
+                  <p className="text-muted-foreground text-sm font-mono">
+                    sudhnsh16@gmail.com
+                  </p>
                 </CardContent>
               </Card>
 
@@ -577,7 +721,9 @@ export default function NormalPortfolio() {
                 <CardContent className="p-6 text-center">
                   <MapPin className="w-8 h-8 text-primary mx-auto mb-3" />
                   <h3 className="font-semibold mb-2 font-mono">LOCATION</h3>
-                  <p className="text-muted-foreground text-sm font-mono">Noida, India</p>
+                  <p className="text-muted-foreground text-sm font-mono">
+                    Noida, India
+                  </p>
                 </CardContent>
               </Card>
             </div>
@@ -623,16 +769,28 @@ export default function NormalPortfolio() {
               </p>
             </div>
             <div className="flex gap-6 font-mono text-sm">
-              <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a
+                href="#about"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
                 ./about
               </a>
-              <a href="#projects" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a
+                href="#projects"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
                 ./projects
               </a>
-              <a href="#experience" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a
+                href="#experience"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
                 ./experience
               </a>
-              <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a
+                href="#contact"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
                 ./contact
               </a>
             </div>
@@ -640,5 +798,5 @@ export default function NormalPortfolio() {
         </div>
       </footer>
     </div>
-  )
+  );
 }

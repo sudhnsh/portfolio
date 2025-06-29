@@ -39,14 +39,62 @@ const mockPriceData = [
     baseCountry: "United States",
     tags: ["Video", "VPN Friendly"],
     prices: [
-      { country: "Turkey", price: 3.27, currency: "USD", flag: "🇹🇷", savings: 78.9 },
-      { country: "Argentina", price: 4.12, currency: "USD", flag: "🇦🇷", savings: 73.4 },
-      { country: "India", price: 6.24, currency: "USD", flag: "🇮🇳", savings: 59.7 },
-      { country: "Brazil", price: 7.89, currency: "USD", flag: "🇧🇷", savings: 49.1 },
-      { country: "Philippines", price: 8.99, currency: "USD", flag: "🇵🇭", savings: 42.0 },
-      { country: "Mexico", price: 9.99, currency: "USD", flag: "🇲🇽", savings: 35.5 },
-      { country: "United Kingdom", price: 17.99, currency: "USD", flag: "🇬🇧", savings: -16.1 },
-      { country: "United States", price: 15.49, currency: "USD", flag: "🇺🇸", savings: 0 },
+      {
+        country: "Turkey",
+        price: 3.27,
+        currency: "USD",
+        flag: "🇹🇷",
+        savings: 78.9,
+      },
+      {
+        country: "Argentina",
+        price: 4.12,
+        currency: "USD",
+        flag: "🇦🇷",
+        savings: 73.4,
+      },
+      {
+        country: "India",
+        price: 6.24,
+        currency: "USD",
+        flag: "🇮🇳",
+        savings: 59.7,
+      },
+      {
+        country: "Brazil",
+        price: 7.89,
+        currency: "USD",
+        flag: "🇧🇷",
+        savings: 49.1,
+      },
+      {
+        country: "Philippines",
+        price: 8.99,
+        currency: "USD",
+        flag: "🇵🇭",
+        savings: 42.0,
+      },
+      {
+        country: "Mexico",
+        price: 9.99,
+        currency: "USD",
+        flag: "🇲🇽",
+        savings: 35.5,
+      },
+      {
+        country: "United Kingdom",
+        price: 17.99,
+        currency: "USD",
+        flag: "🇬🇧",
+        savings: -16.1,
+      },
+      {
+        country: "United States",
+        price: 15.49,
+        currency: "USD",
+        flag: "🇺🇸",
+        savings: 0,
+      },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: true,
@@ -64,14 +112,62 @@ const mockPriceData = [
     baseCountry: "United States",
     tags: ["Music", "VPN Friendly"],
     prices: [
-      { country: "India", price: 1.58, currency: "USD", flag: "🇮🇳", savings: 85.6 },
-      { country: "Turkey", price: 2.31, currency: "USD", flag: "🇹🇷", savings: 79.0 },
-      { country: "Argentina", price: 3.45, currency: "USD", flag: "🇦🇷", savings: 68.6 },
-      { country: "Philippines", price: 3.89, currency: "USD", flag: "🇵🇭", savings: 64.6 },
-      { country: "Brazil", price: 4.99, currency: "USD", flag: "🇧🇷", savings: 54.6 },
-      { country: "Mexico", price: 5.99, currency: "USD", flag: "🇲🇽", savings: 45.5 },
-      { country: "United States", price: 10.99, currency: "USD", flag: "🇺🇸", savings: 0 },
-      { country: "United Kingdom", price: 12.99, currency: "USD", flag: "🇬🇧", savings: -18.2 },
+      {
+        country: "India",
+        price: 1.58,
+        currency: "USD",
+        flag: "🇮🇳",
+        savings: 85.6,
+      },
+      {
+        country: "Turkey",
+        price: 2.31,
+        currency: "USD",
+        flag: "🇹🇷",
+        savings: 79.0,
+      },
+      {
+        country: "Argentina",
+        price: 3.45,
+        currency: "USD",
+        flag: "🇦🇷",
+        savings: 68.6,
+      },
+      {
+        country: "Philippines",
+        price: 3.89,
+        currency: "USD",
+        flag: "🇵🇭",
+        savings: 64.6,
+      },
+      {
+        country: "Brazil",
+        price: 4.99,
+        currency: "USD",
+        flag: "🇧🇷",
+        savings: 54.6,
+      },
+      {
+        country: "Mexico",
+        price: 5.99,
+        currency: "USD",
+        flag: "🇲🇽",
+        savings: 45.5,
+      },
+      {
+        country: "United States",
+        price: 10.99,
+        currency: "USD",
+        flag: "🇺🇸",
+        savings: 0,
+      },
+      {
+        country: "United Kingdom",
+        price: 12.99,
+        currency: "USD",
+        flag: "🇬🇧",
+        savings: -18.2,
+      },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: true,
@@ -89,14 +185,62 @@ const mockPriceData = [
     baseCountry: "United States",
     tags: ["Music", "VPN Restricted"],
     prices: [
-      { country: "India", price: 1.49, currency: "USD", flag: "🇮🇳", savings: 86.4 },
-      { country: "Turkey", price: 2.99, currency: "USD", flag: "🇹🇷", savings: 72.8 },
-      { country: "Argentina", price: 3.99, currency: "USD", flag: "🇦🇷", savings: 63.7 },
-      { country: "Brazil", price: 4.99, currency: "USD", flag: "🇧🇷", savings: 54.6 },
-      { country: "Mexico", price: 5.99, currency: "USD", flag: "🇲🇽", savings: 45.5 },
-      { country: "Philippines", price: 6.49, currency: "USD", flag: "🇵🇭", savings: 40.9 },
-      { country: "United States", price: 10.99, currency: "USD", flag: "🇺🇸", savings: 0 },
-      { country: "United Kingdom", price: 11.99, currency: "USD", flag: "🇬🇧", savings: -9.1 },
+      {
+        country: "India",
+        price: 1.49,
+        currency: "USD",
+        flag: "🇮🇳",
+        savings: 86.4,
+      },
+      {
+        country: "Turkey",
+        price: 2.99,
+        currency: "USD",
+        flag: "🇹🇷",
+        savings: 72.8,
+      },
+      {
+        country: "Argentina",
+        price: 3.99,
+        currency: "USD",
+        flag: "🇦🇷",
+        savings: 63.7,
+      },
+      {
+        country: "Brazil",
+        price: 4.99,
+        currency: "USD",
+        flag: "🇧🇷",
+        savings: 54.6,
+      },
+      {
+        country: "Mexico",
+        price: 5.99,
+        currency: "USD",
+        flag: "🇲🇽",
+        savings: 45.5,
+      },
+      {
+        country: "Philippines",
+        price: 6.49,
+        currency: "USD",
+        flag: "🇵🇭",
+        savings: 40.9,
+      },
+      {
+        country: "United States",
+        price: 10.99,
+        currency: "USD",
+        flag: "🇺🇸",
+        savings: 0,
+      },
+      {
+        country: "United Kingdom",
+        price: 11.99,
+        currency: "USD",
+        flag: "🇬🇧",
+        savings: -9.1,
+      },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: false,
@@ -114,14 +258,62 @@ const mockPriceData = [
     baseCountry: "United States",
     tags: ["Video", "VPN Friendly"],
     prices: [
-      { country: "Argentina", price: 1.19, currency: "USD", flag: "🇦🇷", savings: 90.1 },
-      { country: "Turkey", price: 2.69, currency: "USD", flag: "🇹🇷", savings: 77.6 },
-      { country: "India", price: 2.99, currency: "USD", flag: "🇮🇳", savings: 75.1 },
-      { country: "Ukraine", price: 4.99, currency: "USD", flag: "🇺🇦", savings: 58.4 },
-      { country: "Philippines", price: 6.99, currency: "USD", flag: "🇵🇭", savings: 41.7 },
-      { country: "Brazil", price: 7.99, currency: "USD", flag: "🇧🇷", savings: 33.4 },
-      { country: "Mexico", price: 8.99, currency: "USD", flag: "🇲🇽", savings: 25.0 },
-      { country: "United States", price: 11.99, currency: "USD", flag: "🇺🇸", savings: 0 },
+      {
+        country: "Argentina",
+        price: 1.19,
+        currency: "USD",
+        flag: "🇦🇷",
+        savings: 90.1,
+      },
+      {
+        country: "Turkey",
+        price: 2.69,
+        currency: "USD",
+        flag: "🇹🇷",
+        savings: 77.6,
+      },
+      {
+        country: "India",
+        price: 2.99,
+        currency: "USD",
+        flag: "🇮🇳",
+        savings: 75.1,
+      },
+      {
+        country: "Ukraine",
+        price: 4.99,
+        currency: "USD",
+        flag: "🇺🇦",
+        savings: 58.4,
+      },
+      {
+        country: "Philippines",
+        price: 6.99,
+        currency: "USD",
+        flag: "🇵🇭",
+        savings: 41.7,
+      },
+      {
+        country: "Brazil",
+        price: 7.99,
+        currency: "USD",
+        flag: "🇧🇷",
+        savings: 33.4,
+      },
+      {
+        country: "Mexico",
+        price: 8.99,
+        currency: "USD",
+        flag: "🇲🇽",
+        savings: 25.0,
+      },
+      {
+        country: "United States",
+        price: 11.99,
+        currency: "USD",
+        flag: "🇺🇸",
+        savings: 0,
+      },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: true,
@@ -139,14 +331,62 @@ const mockPriceData = [
     baseCountry: "United States",
     tags: ["Video", "VPN Restricted"],
     prices: [
-      { country: "India", price: 0.99, currency: "USD", flag: "🇮🇳", savings: 85.8 },
-      { country: "Turkey", price: 1.99, currency: "USD", flag: "🇹🇷", savings: 71.5 },
-      { country: "Argentina", price: 2.49, currency: "USD", flag: "🇦🇷", savings: 64.4 },
-      { country: "Brazil", price: 2.99, currency: "USD", flag: "🇧🇷", savings: 57.2 },
-      { country: "Mexico", price: 3.99, currency: "USD", flag: "🇲🇽", savings: 42.9 },
-      { country: "Philippines", price: 4.49, currency: "USD", flag: "🇵🇭", savings: 35.8 },
-      { country: "United Kingdom", price: 7.99, currency: "USD", flag: "🇬🇧", savings: -14.3 },
-      { country: "United States", price: 6.99, currency: "USD", flag: "🇺���8", savings: 0 },
+      {
+        country: "India",
+        price: 0.99,
+        currency: "USD",
+        flag: "🇮🇳",
+        savings: 85.8,
+      },
+      {
+        country: "Turkey",
+        price: 1.99,
+        currency: "USD",
+        flag: "🇹🇷",
+        savings: 71.5,
+      },
+      {
+        country: "Argentina",
+        price: 2.49,
+        currency: "USD",
+        flag: "🇦🇷",
+        savings: 64.4,
+      },
+      {
+        country: "Brazil",
+        price: 2.99,
+        currency: "USD",
+        flag: "🇧🇷",
+        savings: 57.2,
+      },
+      {
+        country: "Mexico",
+        price: 3.99,
+        currency: "USD",
+        flag: "🇲🇽",
+        savings: 42.9,
+      },
+      {
+        country: "Philippines",
+        price: 4.49,
+        currency: "USD",
+        flag: "🇵🇭",
+        savings: 35.8,
+      },
+      {
+        country: "United Kingdom",
+        price: 7.99,
+        currency: "USD",
+        flag: "🇬🇧",
+        savings: -14.3,
+      },
+      {
+        country: "United States",
+        price: 6.99,
+        currency: "USD",
+        flag: "🇺🇸",
+        savings: 0,
+      },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: false,
@@ -164,14 +404,62 @@ const mockPriceData = [
     baseCountry: "United States",
     tags: ["Video", "VPN Friendly"],
     prices: [
-      { country: "Turkey", price: 2.99, currency: "USD", flag: "🇹🇷", savings: 72.8 },
-      { country: "India", price: 3.99, currency: "USD", flag: "🇮🇳", savings: 63.7 },
-      { country: "Argentina", price: 4.99, currency: "USD", flag: "🇦🇷", savings: 54.6 },
-      { country: "Brazil", price: 5.99, currency: "USD", flag: "🇧🇷", savings: 45.5 },
-      { country: "Mexico", price: 6.99, currency: "USD", flag: "🇲🇽", savings: 36.4 },
-      { country: "Philippines", price: 7.99, currency: "USD", flag: "🇵🇭", savings: 27.3 },
-      { country: "United Kingdom", price: 12.99, currency: "USD", flag: "🇬🇧", savings: -18.2 },
-      { country: "United States", price: 10.99, currency: "USD", flag: "🇺���8", savings: 0 },
+      {
+        country: "Turkey",
+        price: 2.99,
+        currency: "USD",
+        flag: "🇹🇷",
+        savings: 72.8,
+      },
+      {
+        country: "India",
+        price: 3.99,
+        currency: "USD",
+        flag: "🇮🇳",
+        savings: 63.7,
+      },
+      {
+        country: "Argentina",
+        price: 4.99,
+        currency: "USD",
+        flag: "🇦🇷",
+        savings: 54.6,
+      },
+      {
+        country: "Brazil",
+        price: 5.99,
+        currency: "USD",
+        flag: "🇧🇷",
+        savings: 45.5,
+      },
+      {
+        country: "Mexico",
+        price: 6.99,
+        currency: "USD",
+        flag: "🇲🇽",
+        savings: 36.4,
+      },
+      {
+        country: "Philippines",
+        price: 7.99,
+        currency: "USD",
+        flag: "🇵🇭",
+        savings: 27.3,
+      },
+      {
+        country: "United Kingdom",
+        price: 12.99,
+        currency: "USD",
+        flag: "🇬🇧",
+        savings: -18.2,
+      },
+      {
+        country: "United States",
+        price: 10.99,
+        currency: "USD",
+        flag: "🇺���8",
+        savings: 0,
+      },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: true,
@@ -189,14 +477,62 @@ const mockPriceData = [
     baseCountry: "United States",
     tags: ["Gaming", "VPN Restricted"],
     prices: [
-      { country: "Turkey", price: 4.99, currency: "USD", flag: "🇹🇷", savings: 70.6 },
-      { country: "Argentina", price: 6.99, currency: "USD", flag: "🇦🇷", savings: 58.9 },
-      { country: "Brazil", price: 8.99, currency: "USD", flag: "🇧🇷", savings: 47.1 },
-      { country: "India", price: 9.99, currency: "USD", flag: "🇮🇳", savings: 41.2 },
-      { country: "Mexico", price: 11.99, currency: "USD", flag: "🇲🇽", savings: 29.4 },
-      { country: "Philippines", price: 12.99, currency: "USD", flag: "🇵🇭", savings: 23.5 },
-      { country: "United Kingdom", price: 18.99, currency: "USD", flag: "🇬🇧", savings: -11.8 },
-      { country: "United States", price: 16.99, currency: "USD", flag: "🇺���8", savings: 0 },
+      {
+        country: "Turkey",
+        price: 4.99,
+        currency: "USD",
+        flag: "🇹🇷",
+        savings: 70.6,
+      },
+      {
+        country: "Argentina",
+        price: 6.99,
+        currency: "USD",
+        flag: "🇦🇷",
+        savings: 58.9,
+      },
+      {
+        country: "Brazil",
+        price: 8.99,
+        currency: "USD",
+        flag: "🇧🇷",
+        savings: 47.1,
+      },
+      {
+        country: "India",
+        price: 9.99,
+        currency: "USD",
+        flag: "🇮🇳",
+        savings: 41.2,
+      },
+      {
+        country: "Mexico",
+        price: 11.99,
+        currency: "USD",
+        flag: "🇲🇽",
+        savings: 29.4,
+      },
+      {
+        country: "Philippines",
+        price: 12.99,
+        currency: "USD",
+        flag: "🇵🇭",
+        savings: 23.5,
+      },
+      {
+        country: "United Kingdom",
+        price: 18.99,
+        currency: "USD",
+        flag: "🇬🇧",
+        savings: -11.8,
+      },
+      {
+        country: "United States",
+        price: 16.99,
+        currency: "USD",
+        flag: "🇺���8",
+        savings: 0,
+      },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: false,
@@ -214,77 +550,131 @@ const mockPriceData = [
     baseCountry: "United States",
     tags: ["Video", "VPN Friendly"],
     prices: [
-      { country: "India", price: 1.83, currency: "USD", flag: "🇮🇳", savings: 79.6 },
-      { country: "Turkey", price: 2.49, currency: "USD", flag: "🇹🇷", savings: 72.3 },
-      { country: "Argentina", price: 3.49, currency: "USD", flag: "🇦🇷", savings: 61.2 },
-      { country: "Brazil", price: 4.99, currency: "USD", flag: "🇧🇷", savings: 44.5 },
-      { country: "Mexico", price: 5.99, currency: "USD", flag: "🇲🇽", savings: 33.4 },
-      { country: "Philippines", price: 6.49, currency: "USD", flag: "🇵🇭", savings: 27.8 },
-      { country: "United Kingdom", price: 9.99, currency: "USD", flag: "🇬🇧", savings: -11.1 },
-      { country: "United States", price: 8.99, currency: "USD", flag: "🇺���8", savings: 0 },
+      {
+        country: "India",
+        price: 1.83,
+        currency: "USD",
+        flag: "🇮🇳",
+        savings: 79.6,
+      },
+      {
+        country: "Turkey",
+        price: 2.49,
+        currency: "USD",
+        flag: "🇹🇷",
+        savings: 72.3,
+      },
+      {
+        country: "Argentina",
+        price: 3.49,
+        currency: "USD",
+        flag: "🇦🇷",
+        savings: 61.2,
+      },
+      {
+        country: "Brazil",
+        price: 4.99,
+        currency: "USD",
+        flag: "🇧🇷",
+        savings: 44.5,
+      },
+      {
+        country: "Mexico",
+        price: 5.99,
+        currency: "USD",
+        flag: "🇲🇽",
+        savings: 33.4,
+      },
+      {
+        country: "Philippines",
+        price: 6.49,
+        currency: "USD",
+        flag: "🇵🇭",
+        savings: 27.8,
+      },
+      {
+        country: "United Kingdom",
+        price: 9.99,
+        currency: "USD",
+        flag: "🇬🇧",
+        savings: -11.1,
+      },
+      {
+        country: "United States",
+        price: 8.99,
+        currency: "USD",
+        flag: "🇺���8",
+        savings: 0,
+      },
     ],
     image: "/placeholder.svg?height=40&width=40",
     vpnFriendly: true,
   },
-]
+];
 
 export default function PriceIndex() {
-  const [searchTerm, setSearchTerm] = useState("")
-  const [selectedCountry, setSelectedCountry] = useState("All")
-  const [selectedTags, setSelectedTags] = useState<string[]>([])
-  const [isTagsDropdownOpen, setIsTagsDropdownOpen] = useState(false)
-  const [sortBy, setSortBy] = useState("savings")
-  const [priceData, setPriceData] = useState(mockPriceData)
-  const [isDarkMode, setIsDarkMode] = useState(false)
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedCountry, setSelectedCountry] = useState("All");
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [isTagsDropdownOpen, setIsTagsDropdownOpen] = useState(false);
+  const [sortBy, setSortBy] = useState("savings");
+  const [priceData] = useState(mockPriceData);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Get unique countries for filtering
   const countries = useMemo(() => {
-    const allCountries = new Set<string>()
+    const allCountries = new Set<string>();
     priceData.forEach((item) => {
       item.prices.forEach((price) => {
-        allCountries.add(price.country)
-      })
-    })
-    return ["All", ...Array.from(allCountries).sort()]
-  }, [priceData])
+        allCountries.add(price.country);
+      });
+    });
+    return ["All", ...Array.from(allCountries).sort()];
+  }, [priceData]);
 
   // Get all unique tags
   const allTags = useMemo(() => {
-    const tagSet = new Set<string>()
+    const tagSet = new Set<string>();
     priceData.forEach((item) => {
-      item.tags.forEach((tag) => tagSet.add(tag))
-    })
-    return Array.from(tagSet).sort()
-  }, [priceData])
+      item.tags.forEach((tag) => tagSet.add(tag));
+    });
+    return Array.from(tagSet).sort();
+  }, [priceData]);
 
   // Filter and sort data
   const filteredData = useMemo(() => {
     const filtered = priceData.filter((item) => {
-      const matchesSearch = item.product.toLowerCase().includes(searchTerm.toLowerCase())
-      const matchesCountry = selectedCountry === "All" || item.prices.some((price) => price.country === selectedCountry)
-      const matchesTags = selectedTags.length === 0 || selectedTags.every((tag) => item.tags.includes(tag))
-      return matchesSearch && matchesCountry && matchesTags
-    })
+      const matchesSearch = item.product
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase());
+      const matchesCountry =
+        selectedCountry === "All" ||
+        item.prices.some((price) => price.country === selectedCountry);
+      const matchesTags =
+        selectedTags.length === 0 ||
+        selectedTags.every((tag) => item.tags.includes(tag));
+      return matchesSearch && matchesCountry && matchesTags;
+    });
 
     // Sort data
     filtered.sort((a, b) => {
       switch (sortBy) {
         case "product":
-          return a.product.localeCompare(b.product)
+          return a.product.localeCompare(b.product);
         case "category":
-          return a.category.localeCompare(b.category)
+          return a.category.localeCompare(b.category);
         case "price":
-          return a.basePrice - b.basePrice
+          return a.basePrice - b.basePrice;
         case "savings":
         default:
-          const maxSavingsA = Math.max(...a.prices.map((p) => p.savings))
-          const maxSavingsB = Math.max(...b.prices.map((p) => p.savings))
-          return maxSavingsB - maxSavingsA
+          const maxSavingsA = Math.max(...a.prices.map((p) => p.savings));
+          const maxSavingsB = Math.max(...b.prices.map((p) => p.savings));
+          return maxSavingsB - maxSavingsA;
       }
-    })
+    });
 
-    return filtered
-  }, [priceData, searchTerm, selectedCountry, selectedTags, sortBy])
+    return filtered;
+  }, [priceData, searchTerm, selectedCountry, selectedTags, sortBy]);
 
   // Function to load data from API
   // const _loadDataFromAPI = async (apiUrl: string) => {
@@ -297,8 +687,10 @@ export default function PriceIndex() {
   //   }
   // }
   const getBestPrice = (prices: any[]) => {
-    return prices.reduce((best, current) => (current.price < best.price ? current : best))
-  }
+    return prices.reduce((best, current) =>
+      current.price < best.price ? current : best
+    );
+  };
 
   const getCountryFlag = (country: string) => {
     const flagMap: { [key: string]: string } = {
@@ -311,26 +703,30 @@ export default function PriceIndex() {
       "United Kingdom": "🇬🇧",
       "United States": "🇺���8",
       Ukraine: "🇺🇦",
-    }
-    return flagMap[country] || "🌍"
-  }
+    };
+    return flagMap[country] || "🌍";
+  };
 
   const handleTagToggle = (tag: string) => {
-    setSelectedTags((prev) => (prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]))
-  }
+    setSelectedTags((prev) =>
+      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
+    );
+  };
 
   const removeTag = (tag: string) => {
-    setSelectedTags((prev) => prev.filter((t) => t !== tag))
-  }
+    setSelectedTags((prev) => prev.filter((t) => t !== tag));
+  };
 
   const clearAllTags = () => {
-    setSelectedTags([])
-  }
+    setSelectedTags([]);
+  };
 
   return (
     <div
       className={`min-h-screen transition-colors duration-300 p-6 ${
-        isDarkMode ? "bg-gradient-to-br from-gray-900 to-gray-800" : "bg-gradient-to-br from-green-50 to-blue-50"
+        isDarkMode
+          ? "bg-gradient-to-br from-gray-900 to-gray-800"
+          : "bg-gradient-to-br from-green-50 to-blue-50"
       }`}
     >
       <div className="max-w-7xl mx-auto">
@@ -341,11 +737,18 @@ export default function PriceIndex() {
               <Globe className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className={`text-3xl font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+              <h1
+                className={`text-3xl font-bold ${
+                  isDarkMode ? "text-white" : "text-gray-900"
+                }`}
+              >
                 Subscription Price Index
               </h1>
-              <p className={`${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>
-                Compare popular subscription prices across countries and save with regional pricing
+              <p
+                className={`${isDarkMode ? "text-gray-300" : "text-gray-600"}`}
+              >
+                Compare popular subscription prices across countries and save
+                with regional pricing
               </p>
             </div>
           </div>
@@ -356,25 +759,48 @@ export default function PriceIndex() {
               variant="outline"
               size="sm"
               onClick={() => setIsDarkMode(!isDarkMode)}
-              className={`${isDarkMode ? "border-gray-600 text-gray-300 hover:bg-gray-700" : ""}`}
+              className={`${
+                isDarkMode
+                  ? "border-gray-600 text-gray-300 hover:bg-gray-700"
+                  : ""
+              }`}
             >
-              {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+              {isDarkMode ? (
+                <Sun className="w-4 h-4" />
+              ) : (
+                <Moon className="w-4 h-4" />
+              )}
               <span className="ml-2">{isDarkMode ? "Light" : "Dark"}</span>
             </Button>
           </div>
 
           {/* Warning Banner */}
-          <Card className={`${isDarkMode ? "bg-gray-800 border-gray-700" : "bg-amber-50 border-amber-200"}`}>
+          <Card
+            className={`${
+              isDarkMode
+                ? "bg-gray-800 border-gray-700"
+                : "bg-amber-50 border-amber-200"
+            }`}
+          >
             <CardContent className="p-4">
               <div className="flex items-start gap-3">
                 <Shield className="w-5 h-5 text-amber-600 mt-0.5" />
                 <div>
-                  <h4 className={`font-semibold ${isDarkMode ? "text-amber-500" : "text-amber-900"} mb-1`}>
+                  <h4
+                    className={`font-semibold ${
+                      isDarkMode ? "text-amber-500" : "text-amber-900"
+                    } mb-1`}
+                  >
                     Important Notice
                   </h4>
-                  <p className={`${isDarkMode ? "text-amber-300" : "text-amber-800"} text-sm`}>
-                    Using VPNs to access regional pricing may violate terms of service. This tool is for price
-                    transparency and research purposes. Always check service terms before proceeding.
+                  <p
+                    className={`${
+                      isDarkMode ? "text-amber-300" : "text-amber-800"
+                    } text-sm`}
+                  >
+                    Using VPNs to access regional pricing may violate terms of
+                    service. This tool is for price transparency and research
+                    purposes. Always check service terms before proceeding.
                   </p>
                 </div>
               </div>
@@ -383,7 +809,9 @@ export default function PriceIndex() {
         </div>
 
         {/* Search and Filters */}
-        <Card className={`mb-6 ${isDarkMode ? "bg-gray-800 border-gray-700" : ""}`}>
+        <Card
+          className={`mb-6 ${isDarkMode ? "bg-gray-800 border-gray-700" : ""}`}
+        >
           <CardContent className="p-6">
             <div className="flex flex-col gap-4">
               {/* First Row: Search, Category, Country, Sort */}
@@ -405,13 +833,17 @@ export default function PriceIndex() {
                     variant="outline"
                     onClick={() => setIsTagsDropdownOpen(!isTagsDropdownOpen)}
                     className={`w-full justify-between ${
-                      isDarkMode ? "border-gray-600 text-gray-300 hover:bg-gray-700" : ""
+                      isDarkMode
+                        ? "border-gray-600 text-gray-300 hover:bg-gray-700"
+                        : ""
                     }`}
                   >
                     <span>
                       {selectedTags.length === 0
                         ? "Select Tags..."
-                        : `${selectedTags.length} tag${selectedTags.length > 1 ? "s" : ""} selected`}
+                        : `${selectedTags.length} tag${
+                            selectedTags.length > 1 ? "s" : ""
+                          } selected`}
                     </span>
                     <ChevronDown className="w-4 h-4" />
                   </Button>
@@ -419,7 +851,9 @@ export default function PriceIndex() {
                   {isTagsDropdownOpen && (
                     <div
                       className={`absolute top-full left-0 right-0 mt-1 border rounded-md shadow-lg z-10 max-h-60 overflow-y-auto ${
-                        isDarkMode ? "bg-gray-800 border-gray-600" : "bg-white border-gray-200"
+                        isDarkMode
+                          ? "bg-gray-800 border-gray-600"
+                          : "bg-white border-gray-200"
                       }`}
                     >
                       <div className="p-2">
@@ -437,7 +871,13 @@ export default function PriceIndex() {
                               onChange={() => handleTagToggle(tag)}
                               className="rounded"
                             />
-                            <span className={`text-sm ${isDarkMode ? "text-gray-200" : "text-gray-800"}`}>{tag}</span>
+                            <span
+                              className={`text-sm ${
+                                isDarkMode ? "text-gray-200" : "text-gray-800"
+                              }`}
+                            >
+                              {tag}
+                            </span>
                           </div>
                         ))}
                       </div>
@@ -450,7 +890,9 @@ export default function PriceIndex() {
                   value={selectedCountry}
                   onChange={(e) => setSelectedCountry(e.target.value)}
                   className={`px-3 py-2 border rounded-md text-sm min-w-[180px] ${
-                    isDarkMode ? "bg-gray-800 border-gray-600 text-white" : "bg-white border-gray-200 text-gray-900"
+                    isDarkMode
+                      ? "bg-gray-800 border-gray-600 text-white"
+                      : "bg-white border-gray-200 text-gray-900"
                   }`}
                 >
                   <option value="All">🌍 All Countries</option>
@@ -468,7 +910,9 @@ export default function PriceIndex() {
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
                   className={`px-3 py-2 border rounded-md text-sm ${
-                    isDarkMode ? "bg-gray-800 border-gray-600 text-white" : "bg-white border-gray-200 text-gray-900"
+                    isDarkMode
+                      ? "bg-gray-800 border-gray-600 text-white"
+                      : "bg-white border-gray-200 text-gray-900"
                   }`}
                 >
                   <option value="savings">Sort by Max Savings</option>
@@ -481,7 +925,13 @@ export default function PriceIndex() {
               {/* Selected Tags Display */}
               {selectedTags.length > 0 && (
                 <div className="flex flex-wrap gap-2 items-center mt-4">
-                  <span className={`text-sm ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>Selected tags:</span>
+                  <span
+                    className={`text-sm ${
+                      isDarkMode ? "text-gray-300" : "text-gray-600"
+                    }`}
+                  >
+                    Selected tags:
+                  </span>
                   {selectedTags.map((tag) => (
                     <Badge
                       key={tag}
@@ -493,14 +943,21 @@ export default function PriceIndex() {
                       }`}
                     >
                       {tag}
-                      <X className="w-3 h-3 ml-1" onClick={() => removeTag(tag)} />
+                      <X
+                        className="w-3 h-3 ml-1"
+                        onClick={() => removeTag(tag)}
+                      />
                     </Badge>
                   ))}
                   <Button
                     variant="ghost"
                     size="sm"
                     onClick={clearAllTags}
-                    className={`text-xs ${isDarkMode ? "text-gray-400 hover:text-gray-200" : "text-gray-600 hover:text-gray-800"}`}
+                    className={`text-xs ${
+                      isDarkMode
+                        ? "text-gray-400 hover:text-gray-200"
+                        : "text-gray-600 hover:text-gray-800"
+                    }`}
                   >
                     Clear all
                   </Button>
@@ -513,15 +970,18 @@ export default function PriceIndex() {
         {/* Results Count */}
         <div className="mb-4 flex items-center justify-between">
           <p className={`${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>
-            {filteredData.length} {filteredData.length === 1 ? "product" : "products"} found
+            {filteredData.length}{" "}
+            {filteredData.length === 1 ? "product" : "products"} found
             {selectedCountry !== "All" && (
               <span className="ml-2 text-sm">
-                • Showing prices for {getCountryFlag(selectedCountry)} {selectedCountry}
+                • Showing prices for {getCountryFlag(selectedCountry)}{" "}
+                {selectedCountry}
               </span>
             )}
             {selectedTags.length > 0 && (
               <span className="ml-2 text-sm">
-                • Filtered by {selectedTags.length} tag{selectedTags.length > 1 ? "s" : ""}
+                • Filtered by {selectedTags.length} tag
+                {selectedTags.length > 1 ? "s" : ""}
               </span>
             )}
           </p>
@@ -531,10 +991,14 @@ export default function PriceIndex() {
               variant="outline"
               size="sm"
               onClick={() => {
-                setSelectedCountry("All")
-                setSelectedTags([])
+                setSelectedCountry("All");
+                setSelectedTags([]);
               }}
-              className={`${isDarkMode ? "border-gray-600 text-gray-300 hover:bg-gray-700" : ""}`}
+              className={`${
+                isDarkMode
+                  ? "border-gray-600 text-gray-300 hover:bg-gray-700"
+                  : ""
+              }`}
             >
               Clear Filters
             </Button>
@@ -544,8 +1008,8 @@ export default function PriceIndex() {
         {/* Price Comparison Grid - 2 cards per row on large screens */}
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
           {filteredData.map((item) => {
-            const bestPrice = getBestPrice(item.prices)
-            const maxSavings = Math.max(...item.prices.map((p) => p.savings))
+            const bestPrice = getBestPrice(item.prices);
+            const maxSavings = Math.max(...item.prices.map((p) => p.savings));
 
             return (
               <Card
@@ -563,7 +1027,11 @@ export default function PriceIndex() {
                         <item.icon className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <CardTitle className={`text-lg ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                        <CardTitle
+                          className={`text-lg ${
+                            isDarkMode ? "text-white" : "text-gray-900"
+                          }`}
+                        >
                           {item.product}
                         </CardTitle>
                         <div className="flex items-center gap-2 mt-1"></div>
@@ -571,42 +1039,50 @@ export default function PriceIndex() {
                         <div className="flex flex-wrap gap-1 mt-2">
                           {item.tags.slice(0, 3).map((tag) => {
                             // Define colors for different tag types
-                            let tagColors = ""
+                            let tagColors = "";
                             if (tag === "Music") {
                               tagColors = isDarkMode
                                 ? "bg-purple-900/50 border-purple-700 text-purple-300"
-                                : "bg-purple-100 border-purple-300 text-purple-700"
+                                : "bg-purple-100 border-purple-300 text-purple-700";
                             } else if (tag === "Video") {
                               tagColors = isDarkMode
                                 ? "bg-blue-900/50 border-blue-700 text-blue-300"
-                                : "bg-blue-100 border-blue-300 text-blue-700"
+                                : "bg-blue-100 border-blue-300 text-blue-700";
                             } else if (tag === "Gaming") {
                               tagColors = isDarkMode
                                 ? "bg-orange-900/50 border-orange-700 text-orange-300"
-                                : "bg-orange-100 border-orange-300 text-orange-700"
+                                : "bg-orange-100 border-orange-300 text-orange-700";
                             } else if (tag === "VPN Friendly") {
                               tagColors = isDarkMode
                                 ? "bg-green-900/50 border-green-700 text-green-300"
-                                : "bg-green-100 border-green-300 text-green-700"
+                                : "bg-green-100 border-green-300 text-green-700";
                             } else if (tag === "VPN Restricted") {
                               tagColors = isDarkMode
                                 ? "bg-red-900/50 border-red-700 text-red-300"
-                                : "bg-red-100 border-red-300 text-red-700"
+                                : "bg-red-100 border-red-300 text-red-700";
                             } else {
-                              tagColors = isDarkMode ? "border-gray-600 text-gray-400" : "border-gray-300 text-gray-600"
+                              tagColors = isDarkMode
+                                ? "border-gray-600 text-gray-400"
+                                : "border-gray-300 text-gray-600";
                             }
 
                             return (
-                              <Badge key={tag} variant="outline" className={`text-xs ${tagColors}`}>
+                              <Badge
+                                key={tag}
+                                variant="outline"
+                                className={`text-xs ${tagColors}`}
+                              >
                                 {tag}
                               </Badge>
-                            )
+                            );
                           })}
                           {item.tags.length > 3 && (
                             <Badge
                               variant="outline"
                               className={`text-xs ${
-                                isDarkMode ? "border-gray-600 text-gray-400" : "border-gray-300 text-gray-600"
+                                isDarkMode
+                                  ? "border-gray-600 text-gray-400"
+                                  : "border-gray-300 text-gray-600"
                               }`}
                             >
                               +{item.tags.length - 3} more
@@ -621,7 +1097,13 @@ export default function PriceIndex() {
                         <TrendingDown className="w-5 h-5" />
                         {maxSavings.toFixed(1)}%
                       </div>
-                      <p className={`${isDarkMode ? "text-gray-300" : "text-gray-600"} text-sm`}>Max Savings</p>
+                      <p
+                        className={`${
+                          isDarkMode ? "text-gray-300" : "text-gray-600"
+                        } text-sm`}
+                      >
+                        Max Savings
+                      </p>
                     </div>
                   </div>
                 </CardHeader>
@@ -631,29 +1113,37 @@ export default function PriceIndex() {
                     {(selectedCountry === "All"
                       ? item.prices
                       : item.prices.filter((p) => p.country === selectedCountry)
-                    ).map((price, index) => (
+                    ).map((price) => (
                       <div
                         key={price.country}
                         className={`flex items-center justify-between p-3 rounded-lg ${
-                          (price.savings === maxSavings && maxSavings > 0) || selectedCountry === price.country
+                          (price.savings === maxSavings && maxSavings > 0) ||
+                          selectedCountry === price.country
                             ? isDarkMode
                               ? "bg-green-900/30 border border-green-700"
                               : "bg-green-50 border border-green-200"
                             : isDarkMode
-                              ? "bg-gray-800/50"
-                              : "bg-gray-50"
+                            ? "bg-gray-800/50"
+                            : "bg-gray-50"
                         }`}
                       >
                         <div className="flex items-center gap-3">
                           <span className="text-2xl">{price.flag}</span>
                           <div>
-                            <p className={`font-medium ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                            <p
+                              className={`font-medium ${
+                                isDarkMode ? "text-white" : "text-gray-900"
+                              }`}
+                            >
                               {price.country}
                             </p>
-                            {((price.savings === maxSavings && maxSavings > 0) ||
+                            {((price.savings === maxSavings &&
+                              maxSavings > 0) ||
                               selectedCountry === price.country) && (
                               <p className="text-xs text-green-600 font-medium">
-                                {selectedCountry === price.country ? "Selected Country" : "Best Deal"}
+                                {selectedCountry === price.country
+                                  ? "Selected Country"
+                                  : "Best Deal"}
                               </p>
                             )}
                           </div>
@@ -662,7 +1152,11 @@ export default function PriceIndex() {
                         <div className="text-right">
                           <div className="flex items-center gap-2">
                             <DollarSign className="w-4 h-4 text-gray-400" />
-                            <span className={`text-lg font-semibold ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                            <span
+                              className={`text-lg font-semibold ${
+                                isDarkMode ? "text-white" : "text-gray-900"
+                              }`}
+                            >
                               {price.price.toFixed(2)} {price.currency}
                             </span>
                           </div>
@@ -679,17 +1173,23 @@ export default function PriceIndex() {
 
                   <div className="mt-4 pt-4 border-t border-gray-200">
                     <div
-                      className={`flex items-center justify-between text-sm ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}
+                      className={`flex items-center justify-between text-sm ${
+                        isDarkMode ? "text-gray-300" : "text-gray-600"
+                      }`}
                     >
                       <span>Base Price ({item.baseCountry})</span>
-                      <span className={`font-medium ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+                      <span
+                        className={`font-medium ${
+                          isDarkMode ? "text-white" : "text-gray-900"
+                        }`}
+                      >
                         ${item.basePrice.toFixed(2)} {item.baseCurrency}
                       </span>
                     </div>
                   </div>
                 </CardContent>
               </Card>
-            )
+            );
           })}
         </div>
 
@@ -697,7 +1197,11 @@ export default function PriceIndex() {
         {filteredData.length === 0 && (
           <Card className="p-12 text-center">
             <Globe className="w-12 h-12 text-gray-400 mx-auto mb-4" />
-            <h3 className={`text-lg font-semibold ${isDarkMode ? "text-white" : "text-gray-900"} mb-2`}>
+            <h3
+              className={`text-lg font-semibold ${
+                isDarkMode ? "text-white" : "text-gray-900"
+              } mb-2`}
+            >
               No products found
             </h3>
             <p className={`${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>
@@ -707,26 +1211,51 @@ export default function PriceIndex() {
         )}
 
         {/* API Integration Note */}
-        <Card className={`mt-8 ${isDarkMode ? "bg-gray-800 border-gray-700" : "bg-blue-50 border-blue-200"}`}>
+        <Card
+          className={`mt-8 ${
+            isDarkMode
+              ? "bg-gray-800 border-gray-700"
+              : "bg-blue-50 border-blue-200"
+          }`}
+        >
           <CardContent className="p-4">
-            <h4 className={`font-semibold ${isDarkMode ? "text-blue-400" : "text-blue-900"} mb-2`}>API Integration</h4>
-            <p className={`${isDarkMode ? "text-gray-300" : "text-blue-800"} text-sm mb-3`}>
+            <h4
+              className={`font-semibold ${
+                isDarkMode ? "text-blue-400" : "text-blue-900"
+              } mb-2`}
+            >
+              API Integration
+            </h4>
+            <p
+              className={`${
+                isDarkMode ? "text-gray-300" : "text-blue-800"
+              } text-sm mb-3`}
+            >
               To connect your subscription price API, update the{" "}
               <code
-                className={`${isDarkMode ? "bg-gray-700 text-blue-400" : "bg-blue-100 text-blue-900"} px-1 rounded`}
+                className={`${
+                  isDarkMode
+                    ? "bg-gray-700 text-blue-400"
+                    : "bg-blue-100 text-blue-900"
+                } px-1 rounded`}
               >
                 loadDataFromAPI
               </code>{" "}
               function for real-time pricing data across all services.
             </p>
-            <p className={`${isDarkMode ? "text-gray-400" : "text-blue-700"} text-xs`}>
-              Expected JSON structure: Array of objects with id, product, category, basePrice, baseCurrency,
-              baseCountry, tags array, prices array (country, price, currency, flag, savings), image, and vpnFriendly
-              fields.
+            <p
+              className={`${
+                isDarkMode ? "text-gray-400" : "text-blue-700"
+              } text-xs`}
+            >
+              Expected JSON structure: Array of objects with id, product,
+              category, basePrice, baseCurrency, baseCountry, tags array, prices
+              array (country, price, currency, flag, savings), image, and
+              vpnFriendly fields.
             </p>
           </CardContent>
         </Card>
       </div>
     </div>
-  )
+  );
 }
