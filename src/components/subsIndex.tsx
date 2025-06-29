@@ -686,11 +686,11 @@ export default function PriceIndex() {
   //     console.error("Error loading data from API:", error)
   //   }
   // }
-  const getBestPrice = (prices: any[]) => {
-    return prices.reduce((best, current) =>
-      current.price < best.price ? current : best
-    );
-  };
+  // const getBestPrice = (prices: any[]) => {
+  //   return prices.reduce((best, current) =>
+  //     current.price < best.price ? current : best
+  //   );
+  // };
 
   const getCountryFlag = (country: string) => {
     const flagMap: { [key: string]: string } = {
@@ -1008,7 +1008,7 @@ export default function PriceIndex() {
         {/* Price Comparison Grid - 2 cards per row on large screens */}
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
           {filteredData.map((item) => {
-            const bestPrice = getBestPrice(item.prices);
+            // const bestPrice = getBestPrice(item.prices);
             const maxSavings = Math.max(...item.prices.map((p) => p.savings));
 
             return (
